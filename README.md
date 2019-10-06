@@ -1,10 +1,10 @@
-# passivetotal
+# passivetotalx
 
 [![Build Status](https://travis-ci.com/ninoseki/passivetotal.svg?branch=master)](https://travis-ci.com/ninoseki/passivetotal)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/passivetotal/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/passivetotal?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/passivetotal/badge)](https://www.codefactor.io/repository/github/ninoseki/passivetotal)
 
-Yet another [PassiveTotal] API wrapper for Ruby.
+Yet another [PassiveTotal](https://community.riskiq.com/) API wrapper for Ruby.
 
 ## Why I created this
 
