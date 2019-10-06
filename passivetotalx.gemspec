@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "PassiveTotal API wrapper for Ruby"
   spec.description   = "PassiveTotal API wrapper for Ruby"
-  spec.homepage      = "https://github.com/ninoseki/passivetotal"
+  spec.homepage      = "https://github.com/ninoseki/passivetotalx"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
