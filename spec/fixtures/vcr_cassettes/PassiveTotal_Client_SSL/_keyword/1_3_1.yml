@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/ssl-certificate/search/keyword?query=sinkhole
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Oct 2019 02:44:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-store, no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: ASCII-8BIT
+      string: '{"queryValue": "sinkhole", "success": true, "results": [{"matchType":
+        "sha1", "fieldMatch": "certificate", "focusPoint": "6e3d0aacd4d784e9920689a8421dcf9df439555e"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d3d863d1b9e06ec33089b0541fef3144d1b6b229"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "ddd5a8927e3a74792bc706d4aa9799c9acd8d4e0"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d7f8f76f72b8310d3b03606527da85eb368ec962"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "fdb7ec63aca82a8b2a1bccf900ac1af8bd0fc88e"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e139d64d5c95219b5a7cabbbc8fe044ba7226276"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "03cd3ff0e065235697ce0c5a163ad24f667207a6"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "a7f39ec2dc1963bfc7a06580624c70f86e40e807"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "c07836fdaf487d80bab54731e4cd0a12bc7d6282"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d913c7c3ab7d3969709ad237aa2d19651d96c0ed"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "75f328af402d6d88993971a45821ade08ba375e4"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "50a191f69ab5a49ba3a38ce1057bdc0fd97dad16"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "931b7b9b1ffedb4bd8374dd47e6558e76e7db3d2"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "12eaad8bb3dae065669d3b22800c3facb1089ca2"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "bd92e969d7f339d3ded709105c89f8f6c652e17b"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "af18728a4590ef69a1a478e0241740b4ef8fe9eb"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "69a8f921501823d75fb1dd81164f6c227d156b92"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "deae1a3f6e127e372c878b1ecc614b8b927c26bb"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "f1204677b1125c78ac6cd228dc8b842b02b956b8"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e7d6912bb22eebc2ed03d2ebf90d0a35af8f4ad0"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "c1d3f53fb2453e34891e007706e2478f4eb1ed99"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e45a5ae9f6a7ee57f34ee11c426d4256e68d61f1"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "ed91a96957f731dacc28066b62c0b4882f9ef810"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "dcbdfed73fa3d6afe56f015d490a31273e267abd"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "449ea4a75ddeed71b8d17fad17c6924beba08c02"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "a63e017cce468fbbb6f44198a586ee62e64bd37f"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "b36b0ff3ea42c4563aa9ce6c778d5f3fd8cd1956"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "7e92594bcbec2ba0be4eb01c89172341ec7579b3"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "9b20cbdfc4c54723fcdcd0a866e8a5be3b9dd61e"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "faee2bc3f4db37ca388459df0e9aec443ebe8b27"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "1390ce88fc2f38ec1cd522445e0d18681a6bd1c4"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "51f8fa84ae5822fc7f31d06804a2e87cddfc275a"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "ac2a2c22e69043762e3b1469738cb1c95a05e5e7"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d9848d05f1cdb513951215f1ec96b79861cbead3"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "aff1ab3d4a1e654891d208de7a05e6ea65edf0c7"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "2974db0a9f495dfed3cb5a6f6e0c41b4a0ecd405"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "8c060b6504af428df281835bafda411660273ed8"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "f0077a9f60c4b21a6a70e6947ff87033acdd9927"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "99eb984d399c78c4439f64e26fd02c157185bbf8"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "8a5e82561d0cf8be8e576d6ddf8c0cbbbe357698"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "2fad05311f196befc0224f5960e8ee2682983b39"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "b3f7ca34e65d64d3ed7ebbc6f98abc413544c2bc"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "52dc10609969aa0634b325f74d9ffcf7e6ac1a2a"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "77dfa95e3f5a2287f04d351a25099b555397497b"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "241d4c4423c774f4c2c928f1c3f6ff16b76784cf"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "9d2c464797ea121feae0c06b0d0cf41fd27102ad"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "f4a72a2bdbafd828d0516d0d5704e921359322e8"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "fb24ac1472a2d5642cbf5c12f1de9f0280b70ed2"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "3ba9ed7b8b836d3979062ab9955d333209bbf949"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "27684473dd21e5c18510ab4767a9d09f85f4f391"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d544ba273093636659d20a2d24a9c45cb0ff7b64"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "db40a6bea98fe5e3d80e9c666cc6720bddcf34ee"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "63d13cbac50f9bdfc88e20e8d9465712edcc07fd"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e50f29d7af359ca4c1e601fdcd90a19371d1aabc"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "31f55c5dbd0d0f1b79d1a74a3f91c4e8133cd6de"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "2ea5932d0b1a9a935d8108a91be1e5f764a44d1d"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "c0f2ba1e93d8ad611f7915082396cdf2b962eef5"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "06ce1e95bb89e027657438de9f87ed160fef577b"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "d916934cac5773d7c322a52d76cad9d282cf74b4"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "1f45d51684c7019f8b72a1b729bf735a06825e5f"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "b15a280d716f7ca617e3a344ad82f44cdf973844"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "51ecb1fdfe15461a4cb00d3757099f6bafd5205d"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "ff5288f55f58c52ed654b8eb815b6d40973e0f17"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "0e10fea5412cd1075ef93ce87f6d893fc6ea44e6"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "aa039da80ead05e3a6b631182b752de6aab309da"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "10332712fa922fcd5df9c72fde5d8620f9242bf7"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "1d5d06fa184dede337310ada9eb053c04d2ae4e3"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "38d0462e0ba763bf7e72aafe09bdad2e3de62d9f"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e6211598d4e4c80fbc06ac99060feaabd9506950"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "4e14521a46c64a5650c55630b31223e996c55625"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "73375b246caa84494180d497f47a87695f94fd5d"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "6f2faa96814aa96f257037411b6fe8e2fbd43ee6"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "e7e55c194e640a4d341b1282043d374d20ab80ce"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "8f7363cd734ae366a2539af88e347155b13eedc5"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "048eaae8cad77d6245961af91470df6815508b03"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "198980fb7d78a92b9753c516b594efc614388231"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "755e3b41b56290ec502b780d227f2a06b0b6862b"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "43233aac3555cc8a3266104d1922bc0c89a82bf1"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "85880fafab203fe827a86759d0326818cd776c3d"},
+        {"matchType": "sha1", "fieldMatch": "certificate", "focusPoint": "8aeb6fd60ca79720bcf7e83d2bcb3ba13913a5ce"}]}
+
+        '
+    http_version: 
+  recorded_at: Sun, 06 Oct 2019 02:44:41 GMT
+recorded_with: VCR 5.0.0

@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/whois/search?field=email&query=domains@riskiq.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Oct 2019 02:50:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2554'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-store, no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: UTF-8
+      string: '{"results": [{"registrar": "GODADDY.COM, LLC", "admin": {"state": "california",
+        "email": "domains@riskiq.com", "postalCode": "94111", "name": "Risk IQ", "organization":
+        "RiskIQ, Inc.", "country": "us", "city": "san francisco", "telephone": "18884154447",
+        "street": "22 Battery Street\n10th Floor"}, "registrant": {"state": "california",
+        "email": "domains@riskiq.com", "postalCode": "94111", "name": "Risk IQ", "organization":
+        "RiskIQ, Inc.", "country": "us", "city": "san francisco", "telephone": "18884154447",
+        "street": "22 Battery Street\n10th Floor"}, "registryUpdatedAt": "2014-12-08T16:00:00.000-0800",
+        "expiresAt": "2017-01-11T16:00:00.000-0800", "zone": {}, "telephone": "18884154447",
+        "registered": "2006-01-11T16:00:00.000-0800", "lastLoadedAt": "2016-09-27T09:40:31.180-0700",
+        "organization": "RiskIQ, Inc.", "nameServers": ["luke.ns.cloudflare.com",
+        "serena.ns.cloudflare.com"], "name": "Risk IQ", "domain": "domains@riskiq.com",
+        "whoisServer": "whois.godaddy.com", "contactEmail": "domains@riskiq.com",
+        "billing": {}, "tech": {"state": "california", "email": "domains@riskiq.com",
+        "postalCode": "94111", "name": "Risk IQ", "organization": "RiskIQ, Inc.",
+        "country": "us", "city": "san francisco", "telephone": "18884154447", "street":
+        "22 Battery Street\n10th Floor"}}, {"registrar": "GODADDY.COM, LLC", "admin":
+        {"state": "california", "email": "domains@riskiq.com", "postalCode": "94111",
+        "name": "Risk IQ", "organization": "RiskIQ, Inc.", "country": "us", "city":
+        "san francisco", "telephone": "18884154447", "street": "22 Battery Street\n10th
+        Floor"}, "registrant": {"state": "california", "email": "domains@riskiq.com",
+        "postalCode": "94111", "name": "Risk IQ", "organization": "RiskIQ, Inc.",
+        "country": "us", "city": "san francisco", "telephone": "18884154447", "street":
+        "22 Battery Street\n10th Floor"}, "registryUpdatedAt": "2014-12-08T16:00:00.000-0800",
+        "expiresAt": "2017-01-11T16:00:00.000-0800", "zone": {}, "telephone": "18884154447",
+        "registered": "2006-01-11T16:00:00.000-0800", "lastLoadedAt": "2016-09-27T09:40:31.102-0700",
+        "organization": "RiskIQ, Inc.", "nameServers": ["luke.ns.cloudflare.com",
+        "serena.ns.cloudflare.com"], "name": "Risk IQ", "domain": "someone@riskiq.com",
+        "whoisServer": "whois.godaddy.com", "contactEmail": "domains@riskiq.com",
+        "billing": {}, "tech": {"state": "california", "email": "domains@riskiq.com",
+        "postalCode": "94111", "name": "Risk IQ", "organization": "RiskIQ, Inc.",
+        "country": "us", "city": "san francisco", "telephone": "18884154447", "street":
+        "22 Battery Street\n10th Floor"}}]}
+
+        '
+    http_version: 
+  recorded_at: Sun, 06 Oct 2019 02:50:19 GMT
+recorded_with: VCR 5.0.0

@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/dns/search/keyword?query=passivetotal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 05 Oct 2019 21:51:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-cache, no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: ASCII-8BIT
+      string: '{"queryValue": "passivetotal", "results": [{"fieldMatch": "domain",
+        "matchType": "domain", "focusPoint": "passivetotal.org.w3bin.com"}, {"fieldMatch":
+        "domain", "matchType": "domain", "focusPoint": "passivetotal.ly.intelium.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.xyz"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.dnsbl7.mailshell.net"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.rbl2.mcafee.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.w3snoop.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.multi.uribl.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.us11.list-manage2.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.us11.list-manage.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.hypestat.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.rtfd.io"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.us11.list-manage1.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.tk.yandex.ru"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.s3.amazonaws.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.pics.s3.amazonaws.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.ghost.io"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.oob.darkbyte.ru"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.ourssite.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.websiteoutlook.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.siterankd.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.composesite.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.ph"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.tk"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.s3.amazonaws.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.clearwebstats.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.ykob.github.io"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.*"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.org.benefito.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.slack.com"},
+        {"fieldMatch": "domain", "matchType": "domain", "focusPoint": "passivetotal.net"}]}
+
+        '
+    http_version: 
+  recorded_at: Sat, 05 Oct 2019 21:51:53 GMT
+recorded_with: VCR 5.0.0

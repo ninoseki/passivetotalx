@@ -1,0 +1,186 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/whois/search/keyword?query=riskiq
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Oct 2019 02:51:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-cache, no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: ASCII-8BIT
+      string: '{"queryValue": "riskiq", "results": [{"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.co.ke"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.org.cn"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.om"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.hr"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.org.il"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.lv"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.pt"}, {"fieldMatch": "name", "matchType":
+        "domain", "focusPoint": "riskiq.com.pt"}, {"fieldMatch": "organization", "matchType":
+        "domain", "focusPoint": "digitalthreatmanagement.org"}, {"fieldMatch": "organization",
+        "matchType": "domain", "focusPoint": "thinkoutsidethefirewall.net"}, {"fieldMatch":
+        "organization", "matchType": "domain", "focusPoint": "digitalthreatmanagement.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiqglobal.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "financialtradie.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "iqveritas.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "thinkoutsidethefirewall.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "thinkoutsidethefirewall.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpz-feedback.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.tv"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "someone@riskiq.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "domains@riskiq.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.us"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisingdb.info"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "thisisphishy.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.xyz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "isthisurlsafe.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpzfeedback.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisement.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rikicusink.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpzfeedback.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "risk-iq.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "dnsiq.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "markiq.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "passivetotal.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisingdb.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.om"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.ind.in"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.com.tw"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.mobi"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "passivetotal.xyz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.io"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.co"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpzfeedback.info"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.in"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.cloud"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.net.in"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "risk-iq.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpz-feedback.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpz-feedback.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.fi"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "isthisphishy.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "risk.io"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "markiq.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "risk-iq.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.info"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.com.co"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.tw"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisingdb.net"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.asia"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.net.ru"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiqinc.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.biz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.global"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "rpzfeedback.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "whereisthewaterhole.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.download"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.biz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.buzz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisements.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "isthisdomainsafe.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "isthismalware.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "malvertisingdb.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskio.org"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.co.at"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.cz"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.at"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.us"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.ae"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.com.au"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.feedback"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "maccabim.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.consulting"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.support"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.business"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "executive-guardian.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.ltd"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "passive-total.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiqs.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.media"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.engineering"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.partners"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "executiveguardian.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.events"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.codes"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.news"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "digitalthreatmanagement.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.solutions"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.team"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "cyberriskiq.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.systems"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.expert"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.international"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.fail"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.gmbh"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.training"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.software"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiqeg.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.technology"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "passivetotal.com"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.exchange"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.domains"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.report"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.reviews"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.is"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.limited"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.digital"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.fyi"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.education"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.services"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.group"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.management"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.company"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.email"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.exposed"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.ninja"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.help"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.inc"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.app"},
+        {"fieldMatch": "organization", "matchType": "domain", "focusPoint": "riskiq.hosting"}]}
+
+        '
+    http_version: 
+  recorded_at: Sun, 06 Oct 2019 02:51:22 GMT
+recorded_with: VCR 5.0.0

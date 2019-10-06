@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/whois?query=passivetotal.org
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Oct 2019 02:50:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-cache, no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: ASCII-8BIT
+      string: '{"nameServers": ["ns-1460.awsdns-54.org", "ns-218.awsdns-27.com", "ns-613.awsdns-12.net",
+        "ns-1868.awsdns-41.co.uk"], "tech": {}, "registrar": "Nom-iq Ltd. dba COM
+        LAUDE", "domain": "passivetotal.org", "expiresAt": "2020-04-14T13:00:56.000-0700",
+        "whoisServer": "whois.comlaude.com", "admin": {}, "registrant": {"organization":
+        "RiskIQ, Inc.", "state": "california", "country": "united states"}, "billing":
+        {}, "organization": "RiskIQ, Inc.", "name": "N/A", "rawText": "\n\n\n\nDomain
+        Name: PASSIVETOTAL.ORG\nRegistry Domain ID: D171949541-LROR\nRegistrar WHOIS
+        Server: whois.comlaude.com\nRegistrar URL: https://comlaude.com/whois\nUpdated
+        Date: 2018-08-25T00:20:58Z\nCreation Date: 2014-04-14T20:00:56Z\nRegistry
+        Expiry Date: 2020-04-14T20:00:56Z\nRegistrar Registration Expiration Date:\nRegistrar:
+        Nom-iq Ltd. dba COM LAUDE\nRegistrar IANA ID: 470\nRegistrar Abuse Contact
+        Email: abuse@comlaude.com\nRegistrar Abuse Contact Phone: +44.2074218250\nReseller:\nDomain
+        Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\nDomain
+        Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\nRegistrant
+        Organization: RiskIQ, Inc.\nRegistrant State/Province: California\nRegistrant
+        Country: US\nName Server: NS-1460.AWSDNS-54.ORG\nName Server: NS-218.AWSDNS-27.COM\nName
+        Server: NS-613.AWSDNS-12.NET\nName Server: NS-1868.AWSDNS-41.CO.UK\nDNSSEC:
+        unsigned\nURL of the ICANN Whois Inaccuracy Complaint Form https://www.icann.org/wicf/)\n>>>
+        Last update of WHOIS database: 2019-07-06T02:28:37Z <<<\n\nFor more information
+        on Whois status codes, please visit https://icann.org/epp\n\nAccess to Public
+        Interest Registry WHOIS information is provided to assist persons in determining
+        the contents of a domain name registration record in the Public Interest Registry
+        registry database. The data in this record is provided by Public Interest
+        Registry for informational purposes only, and Public Interest Registry does
+        not guarantee its accuracy. This service is intended only for query-based
+        access. You agree that you will use this data only for lawful purposes and
+        that, under no circumstances will you use this data to (a) allow, enable,
+        or otherwise support the transmission by e-mail, telephone, or facsimile of
+        mass unsolicited, commercial advertising or solicitations to entities other
+        than the data recipient''s own existing customers; or (b) enable high volume,
+        automated, electronic processes that send queries or data to the systems of
+        Registry Operator, a Registrar, or Afilias except as reasonably necessary
+        to register domain names or modify existing registrations. All rights reserved.
+        Public Interest Registry reserves the right to modify these terms at any time.
+        By submitting this query, you agree to abide by this policy.\n\nThe Registrar
+        of Record identified in this output may have an RDDS service that can be queried
+        for additional information on how to contact the Registrant, Admin, or Tech
+        contact of the queried domain name.", "zone": {}, "lastLoadedAt": "2019-10-03T04:15:38.747-0700",
+        "registryUpdatedAt": "2018-08-24T17:20:58.000-0700", "telephone": "N/A", "registered":
+        "2014-04-14T13:00:56.000-0700"}
+
+        '
+    http_version: 
+  recorded_at: Sun, 06 Oct 2019 02:50:20 GMT
+recorded_with: VCR 5.0.0
