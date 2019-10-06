@@ -9,7 +9,7 @@ Yet another [PassiveTotal] API wrapper for Ruby.
 ## Installation
 
 ```bash
-gem install passivetotal
+gem install passivetotalx
 ```
 
 ## Usage
