@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "passivetotal/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "passvietotalx"
+  spec.name          = "passivetotalx"
   spec.version       = PassiveTotal::VERSION
   spec.authors       = ["Manabu Niseki"]
   spec.email         = ["manabu.niseki@gmail.com"]
