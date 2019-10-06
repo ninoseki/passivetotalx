@@ -6,10 +6,22 @@
 
 Yet another [PassiveTotal] API wrapper for Ruby.
 
+## Why I created this
+
+There is an official PassiveTotal API wrapper for Ruby.
+
+- [chrislee35/passivetotal](https://github.com/chrislee35/passivetotal)
+
+But I don't like that in several reasons.
+
+- A lack of proxy support.
+- Not well structured (IMHO).
+- Not tested with Ruby >= 2.6.
+
 ## Installation
 
 ```bash
-gem install passivetotal
+gem install passivetotalx
 ```
 
 ## Usage
