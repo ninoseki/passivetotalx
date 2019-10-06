@@ -1,0 +1,292 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.passivetotal.org/v2/dns/passive?query=passivetotal.org&timeout=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.passivetotal.org
+      Authorization:
+      - "<CENSORED>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 05 Oct 2019 21:51:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Cache-Control:
+      - no-cache, no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+    body:
+      encoding: ASCII-8BIT
+      string: '{"queryValue": "passivetotal.org", "firstSeen": "2014-04-15 19:12:09",
+        "lastSeen": "2019-10-05 21:51:41", "results": [{"firstSeen": "2014-11-16 18:02:30",
+        "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org", "collected":
+        "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash": "078bdf6614ae4350b73710f7539380a62d4841694a8d657a5194a464fa8442b1",
+        "resolve": "alt1.aspmx.l.google.com", "resolveType": "domain", "recordType":
+        "MX"}, {"firstSeen": "2014-10-09 17:49:22", "lastSeen": "2015-12-29 16:10:00",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["riskiq"], "recordHash": "ffe60072301c8bd526592dd4604d5c41573dfe414d91776303c3cbf47817ebdd",
+        "resolve": "hostmaster@passivetotal.org", "resolveType": "email", "recordType":
+        "SOA"}, {"firstSeen": "2017-06-14 11:22:21", "lastSeen": "2017-06-23 23:34:35",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq"], "recordHash": "bfd7c85272f9adb3189a9011cac29388fa12a5aeda28f3a94bb05daf727fb89f",
+        "resolve": "52.52.94.111", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-07-24 08:22:48", "lastSeen": "2019-08-05 16:57:38", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "d2e6060c94535961f8f67c2ae2caffbff67dc78c433102e34a5c170acd8377b1", "resolve":
+        "52.8.39.238", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2015-12-29
+        16:40:00", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "013da88fac4a98e6dcc2785a19889c0feae658289595308040566f0782cc0691", "resolve":
+        "awsdns-hostmaster@amazon.com", "resolveType": "email", "recordType": "SOA"},
+        {"firstSeen": "2018-08-12 14:13:35", "lastSeen": "2019-06-23 19:20:11", "value":
+        "passivetotal.org", "collected": "2019-10-05 21:51:42", "source": ["kaspersky",
+        "pingly", "riskiq", "virustotal"], "recordHash": "598c62a710032dc99e59c1e2cff8704b6aeb0a48e3c6cd5c893eac21f76626f7",
+        "resolve": "54.183.207.212", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-08-06 15:47:48", "lastSeen": "2019-08-06 15:47:48", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "94f64403660bfe09f0891dfece7def0fbb3cf0d110d5e879c50b1098d41819ce",
+        "resolve": "54.219.149.198", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2015-12-29 16:40:00", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "bb0842ed2b7a1508657f2cfbd3fa98c1af0203b3bb0464fa3c6f59935547189d", "resolve":
+        "ns-218.awsdns-27.com", "resolveType": "domain", "recordType": "NS"}, {"firstSeen":
+        "2015-12-29 16:40:00", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "dff0ba47a8f2a85d50bcf973ccab6f5b504a1b93b70d391c53fd37b9673f71ed", "resolve":
+        "ns-1868.awsdns-41.co.uk", "resolveType": "domain", "recordType": "NS"}, {"firstSeen":
+        "2014-04-15 19:12:09", "lastSeen": "2015-06-02 00:18:04", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["emerging_threats", "kaspersky",
+        "pingly", "riskiq", "virustotal"], "recordHash": "dd5df2bec274b7e52eebc480c7c9e787e0e21aa3d2fc5b09f3f7bd37217a50ca",
+        "resolve": "107.170.89.121", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2015-12-29 16:40:00", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "829074bf9403d4e3cedb80201195488fe10e6c61489e2a55d0359573b3ba4b57", "resolve":
+        "ns-613.awsdns-12.net", "resolveType": "domain", "recordType": "NS"}, {"firstSeen":
+        "2014-11-16 18:02:30", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "e6340beb6d301343528ccebbbed1cf373f7e30cb5ebdde861ec36601a6496b6e", "resolve":
+        "alt2.aspmx.l.google.com", "resolveType": "domain", "recordType": "MX"}, {"firstSeen":
+        "2019-08-05 11:03:48", "lastSeen": "2019-08-08 22:29:03", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "3e29daf15a2c14279d0b93ca31cf8ac4245c78ed2a0d7c8e1876a4af7086ff8d", "resolve":
+        "52.9.132.171", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2016-11-16
+        02:13:37", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:41", "source": ["pingly"], "recordHash": "7ee51d4d0b89938e2efb1de9e6407ac45da16597df66beed5e939686e9f94941",
+        "resolve": "ns-218.awsdns-27.com", "resolveType": "domain", "recordType":
+        "SOA"}, {"firstSeen": "2014-10-09 17:49:22", "lastSeen": "2015-12-29 16:10:00",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["riskiq"], "recordHash": "3dcbdae3417b2aaf811412994dbaa733cad58d759b8eb8808196e9bfdf4d15f3",
+        "resolve": "ns1.digitalocean.com.", "resolveType": "domain", "recordType":
+        "SOA"}, {"firstSeen": "2016-05-07 15:45:03", "lastSeen": "2016-05-10 14:41:23",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq"], "recordHash": "f37a1bd131df0b15832255f9624c80464b1b296f91127a9c279386ce5957e63e",
+        "resolve": "52.9.61.171", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2015-06-01 22:09:13", "lastSeen": "2015-07-10 04:08:16", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq"],
+        "recordHash": "e97070b102a4d22d6d0a1faccb3143dceb12b2a3debcc54b1d5a2ef872957d6b",
+        "resolve": "104.131.121.205", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-05-07 14:40:03", "lastSeen": "2016-11-16 03:18:36", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "a9aa79aab7097e8dae5498c5ffcd7dc7b99abc7d2be38265c86848876bb79731",
+        "resolve": "52.8.192.151", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-05-07 14:40:03", "lastSeen": "2016-05-09 09:18:30", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq"],
+        "recordHash": "9fc6763607f01f67b60243f2ce742e79e8c10d69d555c40c1232897d83bad19d",
+        "resolve": "52.9.38.231", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-08-09 20:53:02", "lastSeen": "2019-08-17 22:58:50", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "50e76d714164ff1850a4c235c34fdf24f771b184bd56a843e1cdf1d79e4d2b93", "resolve":
+        "54.241.161.156", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2015-07-09
+        22:20:48", "lastSeen": "2015-12-30 13:33:21", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "19deb30eab3cc7a29878f61a8a4fd8daeacb76272117c5cd0263ebd957d03628",
+        "resolve": "45.55.77.126", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-02-13 09:30:24", "lastSeen": "2019-07-24 15:21:18", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq"],
+        "recordHash": "d9f56b3fe81b086dd7aa7fc8b1292877697873f778fdae6332054c27e7acdad2",
+        "resolve": "54.215.207.36", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-10-10 20:21:44", "lastSeen": "2014-10-19 17:00:57", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "12657b76d3f2a7bc27cab3eb3a13bd09307d2da782cc72bfcd41ae6803ba7447",
+        "resolve": "162.243.102.221", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2018-06-30 20:27:16", "lastSeen": "2018-08-12 14:13:35", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq", "virustotal"],
+        "recordHash": "fca69ef3dcc1ee7955871addf6ca9d0718e751a1fba188f00ce779991d101a43",
+        "resolve": "54.183.74.245", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-08-17 23:43:55", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "106783c0a1eab6c3e25ae138ef49a6d6b03cffe6f97aeb3c6830243c0de554e0", "resolve":
+        "52.53.133.106", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2019-07-24
+        08:22:48", "lastSeen": "2019-08-04 11:39:38", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "4595e41542dea69b184a8ed7744b3d0a2199c6202570c0c9c8dadf4e7b8a9fdd", "resolve":
+        "54.215.222.239", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2017-06-23
+        18:17:28", "lastSeen": "2018-08-07 00:57:13", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "9bd44379133a45d152b89e4b22380363f8284615b8ce5c86378fc91ba6294790",
+        "resolve": "13.56.52.225", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-11-18 11:41:39", "lastSeen": "2017-03-27 21:49:05", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "e066620eace967b8e8d27e8ffa236a5ef313c12261b66e254c2f92e0ac88de41",
+        "resolve": "50.18.205.169", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-11-16 18:02:30", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "5a08b0679ad9ef40fbc93f0f29d560ee7ae187a97a5a41c3bcdc56194307cb65", "resolve":
+        "aspmx.l.google.com", "resolveType": "domain", "recordType": "MX"}, {"firstSeen":
+        "2015-12-29 16:40:00", "lastSeen": "2019-10-05 13:21:21", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "cff8fc996b9373867df34c789ba9b34b198fb2d12eb2cd7984c87202e9423639",
+        "resolve": "ns-218.awsdns-27.com.", "resolveType": "domain", "recordType":
+        "SOA"}, {"firstSeen": "2015-12-29 16:40:00", "lastSeen": "2019-10-05 21:51:41",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["pingly", "riskiq"], "recordHash": "4e30dcf3e0f5106a143a3633c6a620ccbf9dbd2185368da2a58bd49853774af6",
+        "resolve": "ns-1460.awsdns-54.org", "resolveType": "domain", "recordType":
+        "NS"}, {"firstSeen": "2016-11-15 20:50:24", "lastSeen": "2017-01-19 20:40:50",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq", "virustotal"], "recordHash": "5e2d5d2a39df4402e39ccb08fa1395ac4558bd44ae3606fac7bc24bd012d95f5",
+        "resolve": "52.52.51.237", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-11-29 07:07:34", "lastSeen": "2017-02-23 12:16:40", "value": "passivetotal.org",
+        "collected": "2017-02-23 12:16:40", "source": ["pingly"], "recordHash": "3e018ec7e305cf6d4eadf1b45110adf48ed420821940b67f33df14d3934dcf67",
+        "resolve": "www.passivetotal.org", "resolveType": "domain", "recordType":
+        "CNAME"}, {"firstSeen": "2019-08-10 22:36:54", "lastSeen": "2019-08-15 22:47:12",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["pingly", "riskiq"], "recordHash": "17db998f5e8001ed7ce39f91d3f4e235a0e825f6f1ccfb917b931dc7e0cd0e4a",
+        "resolve": "52.8.140.108", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-11-16 18:02:30", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "472fad723de29e103ae3f6563fb2beb8b529d2e7f1d318fec70a7a8ffcd5eb72", "resolve":
+        "alt3.aspmx.l.google.com", "resolveType": "domain", "recordType": "MX"}, {"firstSeen":
+        "2014-05-06 07:27:33", "lastSeen": "2014-11-15 19:40:42", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "9a30a5f45c472ab286fe679d20cde9106c515717317ea35fef7d27e9d35cb0df",
+        "resolve": "mx00.1and1.com", "resolveType": "domain", "recordType": "MX"},
+        {"firstSeen": "2016-11-30 04:22:47", "lastSeen": "2016-12-06 21:49:14", "value":
+        "passivetotal.org", "collected": "2016-12-06 21:49:14", "source": ["pingly"],
+        "recordHash": "200542c2a2af34aecdbe179a36d46fc624643f8657df2817bd19a5c4dce5fdac",
+        "resolve": "_spf.google.com", "resolveType": "domain", "recordType": "TXT
+        (SPF1)"}, {"firstSeen": "2017-09-27 00:38:26", "lastSeen": "2018-07-01 09:05:00",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq", "virustotal"], "recordHash": "7025dbf7a5e02e20298876be6870bd3440185098e2296c369a9fefb7dfc59cec",
+        "resolve": "52.52.210.93", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2015-08-09 06:26:36", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "aa52a91f95b3c3be7f5164748e94f5ce65462d44730a00a83c7b2d35a7d42967", "resolve":
+        "spf.google.com", "resolveType": "domain", "recordType": "TXT (SPF1)"}, {"firstSeen":
+        "2014-04-15 19:12:09", "lastSeen": "2015-12-29 12:44:59", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "8d43a51f6f7fb429b3584d1105044b262ad61e02bdc5bdf435c9c344321feeed",
+        "resolve": "ns2.digitalocean.com", "resolveType": "domain", "recordType":
+        "NS"}, {"firstSeen": "2017-06-23 18:17:28", "lastSeen": "2017-09-28 01:59:51",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq", "virustotal"], "recordHash": "98a6bef85b2a802aa2880ed8c92253ccb5049e04c49bf0462006a7eb79e97baa",
+        "resolve": "52.9.207.153", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-11-15 20:50:24", "lastSeen": "2016-11-19 18:23:19", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "72472cd735c6307d1135919591552907ab3602d6a911933adbdce6abe4f7b133", "resolve":
+        "52.52.85.138", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2016-05-07
+        15:45:03", "lastSeen": "2016-11-16 02:14:21", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "0a6114e3aa4daa802e3150b49f6160fa553e4608ed30ebd677719cc918362987",
+        "resolve": "52.9.20.68", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2018-08-06 19:44:45", "lastSeen": "2019-02-13 08:52:38", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "c8694038dd30e4111f7baf8dbd986e4d6febe8b2957efd727c58f5a9261a80df",
+        "resolve": "54.193.74.134", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-06-23 20:09:52", "lastSeen": "2019-07-24 15:21:18", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "07680001183feb04d6fb28c71a5b13db16497d2fad482f2baadc1cfc7020f517", "resolve":
+        "13.56.87.12", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2015-12-30
+        10:39:51", "lastSeen": "2016-01-06 13:07:06", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq"],
+        "recordHash": "b3763fa386ba50c5261279ac7e67553d1de6d89b52275d4ad105a6fa8eb2d20f",
+        "resolve": "45.55.48.88", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-05-06 07:27:33", "lastSeen": "2014-11-15 19:40:42", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "ec545d4736c5a55ca78e794f84db45804d9978b714c5bb3d2df4414b98418707",
+        "resolve": "mx01.1and1.com", "resolveType": "domain", "recordType": "MX"},
+        {"firstSeen": "2017-06-09 03:47:17", "lastSeen": "2017-06-14 10:21:14", "value":
+        "passivetotal.org", "collected": "2019-10-05 21:51:42", "source": ["riskiq"],
+        "recordHash": "d34a00fb341391c57b643ffa91f5100d8559254be8f56e9c67a6f60ca403022c",
+        "resolve": "52.9.167.146", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-04-22 00:00:48", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "6ed193c56285f07ca32f2bff749d2df272d351bde8235eba86b6ad1f8113aac7", "resolve":
+        "servers.mcsv.net", "resolveType": "domain", "recordType": "TXT (SPF1)"},
+        {"firstSeen": "2019-08-01 08:54:18", "lastSeen": "2019-08-18 05:04:45", "value":
+        "passivetotal.org", "collected": "2019-10-05 21:51:42", "source": ["pingly",
+        "riskiq"], "recordHash": "75e480b439957721a99dfd2236ca005ce3b5d1f1c4d595d1a5f3851282292e1e",
+        "resolve": "54.219.241.230", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-12-19 19:34:07", "lastSeen": "2016-12-19 19:34:07", "value": "passivetotal.org",
+        "collected": "2016-12-19 19:34:07", "source": ["pingly"], "recordHash": "0efbfd0b2038f58e30d2a41d729bd4a32f76ac7de9e9732f9cd8b4a38e46b760",
+        "resolve": "app.passivetotal.org", "resolveType": "domain", "recordType":
+        "CNAME"}, {"firstSeen": "2017-01-17 21:38:59", "lastSeen": "2017-06-14 13:53:04",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["kaspersky", "pingly", "riskiq", "virustotal"], "recordHash": "bbb46b4feee1fbde3f4de1864f8ad69c72e992b0bbb910dca5eb8c64792ef236",
+        "resolve": "52.52.204.65", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-11-16 18:02:30", "lastSeen": "2019-10-05 21:51:41", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "0bc33868f764985a43ab56e023f071318258a9f8ca71365e3d17a80812976513", "resolve":
+        "alt4.aspmx.l.google.com", "resolveType": "domain", "recordType": "MX"}, {"firstSeen":
+        "2016-01-04 16:00:02", "lastSeen": "2016-05-07 14:10:03", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "213da54c104eff2547bd7dd6eb1574e5cbddb8a8d78fdf75c9840bfa3f25e63f",
+        "resolve": "54.153.123.93", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2017-03-27 15:03:09", "lastSeen": "2017-06-09 03:08:44", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "5d06791658eebb3868672391fe81c1d96726239b30d2ee857dcc8d43ef4d1ef9",
+        "resolve": "54.183.52.43", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-04-15 19:12:09", "lastSeen": "2015-12-29 12:44:59", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "d0d94646e328152fcd7cbf8e3008576e85437499e46b6987a139730c13f0ae15",
+        "resolve": "ns1.digitalocean.com", "resolveType": "domain", "recordType":
+        "NS"}, {"firstSeen": "2019-08-17 23:43:55", "lastSeen": "2019-10-05 21:51:41",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["pingly", "riskiq"], "recordHash": "6307cc4b594f6bd384dc83fd934128b1a5dc15e8b68182156ed24a0919aa2521",
+        "resolve": "54.193.32.222", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2014-04-15 19:12:09", "lastSeen": "2015-12-29 12:44:59", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["riskiq"], "recordHash": "f1ed6ace366585ed689d3dbf9a1c03d072bff5d4e623b6b89f4f57f4f2d11fd9",
+        "resolve": "ns3.digitalocean.com", "resolveType": "domain", "recordType":
+        "NS"}, {"firstSeen": "2019-08-06 19:20:26", "lastSeen": "2019-08-07 21:45:38",
+        "value": "passivetotal.org", "collected": "2019-10-05 21:51:42", "source":
+        ["riskiq"], "recordHash": "a5905e64e18bfeea97c6362f0b8544a4747aa441f8ba982a8b9c2e8d500d14a8",
+        "resolve": "52.8.99.148", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2016-01-04 16:00:02", "lastSeen": "2016-05-10 14:41:23", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq",
+        "virustotal"], "recordHash": "f965351c1d97188c3a6736a981b545a9b04b77ce219a60269f157717b232f54b",
+        "resolve": "52.8.228.23", "resolveType": "ip", "recordType": "A"}, {"firstSeen":
+        "2019-08-08 17:36:00", "lastSeen": "2019-08-09 20:16:37", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["pingly", "riskiq"], "recordHash":
+        "619344e4630fcd37634c5dd8692e96883b4151831e3c8991202c94d97581a4ea", "resolve":
+        "52.9.194.122", "resolveType": "ip", "recordType": "A"}, {"firstSeen": "2017-06-14
+        11:22:21", "lastSeen": "2017-06-23 16:37:55", "value": "passivetotal.org",
+        "collected": "2019-10-05 21:51:42", "source": ["kaspersky", "pingly", "riskiq"],
+        "recordHash": "4db4bc31f13e74046c32e7b9dd1573799ae677cffc5544f038dbb069ea879d8d",
+        "resolve": "52.9.109.27", "resolveType": "ip", "recordType": "A"}], "totalRecords":
+        62, "pager": null, "queryType": "domain"}
+
+        '
+    http_version: 
+  recorded_at: Sat, 05 Oct 2019 21:51:51 GMT
+recorded_with: VCR 5.0.0
