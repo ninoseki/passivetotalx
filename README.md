@@ -1,8 +1,8 @@
 # passivetotalx
 
-[![Build Status](https://travis-ci.com/ninoseki/passivetotal.svg?branch=master)](https://travis-ci.com/ninoseki/passivetotal)
-[![Coverage Status](https://coveralls.io/repos/github/ninoseki/passivetotal/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/passivetotal?branch=master)
-[![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/passivetotal/badge)](https://www.codefactor.io/repository/github/ninoseki/passivetotal)
+[![Build Status](https://travis-ci.com/ninoseki/passivetotalx.svg?branch=master)](https://travis-ci.com/ninoseki/passivetotalx)
+[![Coverage Status](https://coveralls.io/repos/github/ninoseki/passivetotalx/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/passivetotalx?branch=master)
+[![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/passivetotalx/badge)](https://www.codefactor.io/repository/github/ninoseki/passivetotalx)
 
 Yet another [PassiveTotal](https://community.riskiq.com/) API wrapper for Ruby.
 
