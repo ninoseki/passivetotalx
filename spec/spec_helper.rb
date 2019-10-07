@@ -44,4 +44,6 @@ VCR.configure do |config|
   config.configure_rspec_metadata!
 
   config.filter_sensitive_data("<CENSORED>") { authorization_field }
+  config.filter_sensitive_data("<CENSORED>") { ENV["PASSIVETOTAL_USERNAME"] }
+  config.filter_sensitive_data("<CENSORED>") { ENV["PASSIVETOTAL_API_KEY"] }
 end

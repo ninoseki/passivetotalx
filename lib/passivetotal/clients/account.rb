@@ -60,7 +60,7 @@ module PassiveTotal
       # @return [Hash]
       #
       def quotas
-        _get("/account/quotas") { |json| json }
+        _get("/account/quota") { |json| json }
       end
 
       #
