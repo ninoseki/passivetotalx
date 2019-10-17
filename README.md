@@ -1,5 +1,6 @@
 # passivetotalx
 
+[![Gem Version](https://badge.fury.io/rb/passivetotalx.svg)](https://badge.fury.io/rb/passivetotalx)
 [![Build Status](https://travis-ci.com/ninoseki/passivetotalx.svg?branch=master)](https://travis-ci.com/ninoseki/passivetotalx)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/passivetotalx/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/passivetotalx?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/passivetotalx/badge)](https://www.codefactor.io/repository/github/ninoseki/passivetotalx)
