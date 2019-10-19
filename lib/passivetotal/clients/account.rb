@@ -5,8 +5,8 @@ module PassiveTotal
     class Account < Base
       #
       # Read current account metadata and settings.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2Account
       #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2Account
       #
       # @return [Hash]
       #
@@ -16,7 +16,8 @@ module PassiveTotal
 
       #
       # Read API usage history of the account.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountHistory
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountHistory
       #
       # @param [String, nil] source history type (api/ui), defaults to both
       #
@@ -32,7 +33,8 @@ module PassiveTotal
 
       #
       # Get active monitors
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountMonitors
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountMonitors
       #
       #
       # @return [Hash]
@@ -43,8 +45,8 @@ module PassiveTotal
 
       #
       # Read current organization metadata
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountOrganization
       #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountOrganization
       #
       # @return [Hash]
       #
@@ -54,8 +56,8 @@ module PassiveTotal
 
       #
       # Read current account and organization quotas.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountQuotas
       #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountQuotas
       #
       # @return [Hash]
       #
@@ -65,7 +67,8 @@ module PassiveTotal
 
       #
       # Check sources being used for queries.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountSources
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountSources
       #
       # @param [String, nil] source the source to filter on
       #
@@ -81,7 +84,8 @@ module PassiveTotal
 
       #
       # Read team activity.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountOrganizationTeamstream
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountOrganizationTeamstream
       #
       # @param [String, nil] source filter to this source
       # @param [String, nil] dt filter to this datetime
@@ -103,7 +107,8 @@ module PassiveTotal
 
       #
       # Retrieve items with the specified classification.
-      # http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountClassifications
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Account-GetV2AccountClassifications
       #
       # @param [String] classification classification for which to retrieve items for
       #

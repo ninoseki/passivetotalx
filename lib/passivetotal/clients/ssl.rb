@@ -5,7 +5,8 @@ module PassiveTotal
     class SSL < Base
       #
       # Retrieves the SSL certificate history for a given certificate SHA-1 hash or IP address.
-      # http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateHistory
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateHistory
       #
       # @param [String] query SHA-1 hash or associated IP address for which to retrieve certificate history
       #
@@ -21,7 +22,8 @@ module PassiveTotal
 
       #
       # Retrieves an SSL certificate by its SHA-1 hash.
-      # http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificate
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificate
       #
       # @param [String] query SHA-1 hash of the certificate to retrieve
       #
@@ -37,7 +39,8 @@ module PassiveTotal
 
       #
       # Retrieves SSL certificates for a given keyword.
-      # http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateSearchKeyword
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateSearchKeyword
       #
       # @param [String] query keyword on which to search
       #
@@ -53,7 +56,8 @@ module PassiveTotal
 
       #
       # Retrieves SSL certificates for a given field value.
-      # http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateSearch
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-SSL_Certificates-GetV2SslCertificateSearch
       #
       # @param [String] query field value for which to search
       # @param [String] field field by which to search

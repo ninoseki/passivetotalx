@@ -5,7 +5,8 @@ module PassiveTotal
     class Enrichment < Base
       #
       # Get enrichment data for a query
-      # http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2Enrichment
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2Enrichment
       #
       # @param [String] query the domain or IP being queried
       #
@@ -21,7 +22,8 @@ module PassiveTotal
 
       #
       # Get malware data for a query
-      # http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentMalware
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentMalware
       #
       # @param [String] query the domain or IP being queried
       #
@@ -37,7 +39,8 @@ module PassiveTotal
 
       #
       # Get osint data for a query
-      # http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentOsint
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentOsint
       #
       # @param [String] query the domain or IP being queried
       #
@@ -53,7 +56,8 @@ module PassiveTotal
 
       #
       # Get subdomains data for a query
-      # http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentSubdomains
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Enrichment-GetV2EnrichmentSubdomains
       #
       # @param [String] query the domain being queried
       #
@@ -69,7 +73,8 @@ module PassiveTotal
 
       #
       # Get bulk enrichment data for many queries
-      # http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulk
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulk
       #
       # @param [Array<String>] query the domains and IPs being queried
       #
@@ -85,7 +90,8 @@ module PassiveTotal
 
       #
       # Get bulk malware data for many queries
-      # http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulkMalware
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulkMalware
       #
       # @param [Array<String>] query the domains and IPs being queried
       #
@@ -101,7 +107,8 @@ module PassiveTotal
 
       #
       # Get bulk osint data for many queries
-      # http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulkOsint
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Bulk_Enrichment-GetV2EnrichmentBulkOsint
       #
       # @param [Array<String>] query the domains and IPs being queried
       #
