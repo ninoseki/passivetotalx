@@ -5,7 +5,8 @@ module PassiveTotal
     class Project < Base
       #
       # Add project tags.
-      # http://api.passivetotal.org/api/docs/#api-Project-PostV2ProjectTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-PostV2ProjectTag
       #
       # @param [String] project the project id to update
       # @param [String] tags the tags or tag to add (list or str)
@@ -23,7 +24,8 @@ module PassiveTotal
 
       #
       # Create a new project
-      # http://api.passivetotal.org/api/docs/#api-Project-PutV2Project
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-PutV2Project
       #
       # @param [String] name name of the project
       # @param [String] visibility the visibility
@@ -47,7 +49,8 @@ module PassiveTotal
 
       #
       # Delete project
-      # http://api.passivetotal.org/api/docs/#api-Project-DeleteV2Project
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-DeleteV2Project
       #
       # @param [String] project the project id to delete
       #
@@ -63,7 +66,8 @@ module PassiveTotal
 
       #
       # Retrieves a project or projects by search filter
-      # http://api.passivetotal.org/api/docs/#api-Project-GetV2Project
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-GetV2Project
       #
       # @param [String, nil] project filter by project id
       # @param [String, nil] owner filter by owner (an email or organization id)
@@ -89,7 +93,8 @@ module PassiveTotal
 
       #
       # Remove project tags.
-      # http://api.passivetotal.org/api/docs/#api-Project-DeleteV2ProjectTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-DeleteV2ProjectTag
       #
       # @param [String] project the project id to update
       # @param [Array<String>] tags the tags or tag to remove (list or str)
@@ -107,7 +112,8 @@ module PassiveTotal
 
       #
       # Set project tags.
-      # http://api.passivetotal.org/api/docs/#api-Project-PutV2ProjectTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-PutV2ProjectTag
       #
       # @param [String] project the project id to update
       # @param [Array<String>] tags the tags or tag to set to (list or str)
@@ -125,7 +131,8 @@ module PassiveTotal
 
       #
       # Updates a project denoted by project ID
-      # http://api.passivetotal.org/api/docs/#api-Project-PostV2Project
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Project-PostV2Project
       #
       # @param [String] project the project id to update
       # @param [String, nil] name the new name

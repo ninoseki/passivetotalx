@@ -5,7 +5,8 @@ module PassiveTotal
     class WHOIS < Base
       #
       # Retrieves the WHOIS data for the specified query
-      # http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2Whois
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2Whois
       #
       # @param [String] query the domain being queried
       # @param [String, nil] compact_record whether to compress the results
@@ -25,7 +26,8 @@ module PassiveTotal
 
       #
       # Search WHOIS data for a keyword.
-      # http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2WhoisSearchKeyword
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2WhoisSearchKeyword
       #
       # @param [String] query being queried
       #
@@ -41,7 +43,8 @@ module PassiveTotal
 
       #
       # Searches WHOIS data by field and query.
-      # http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2WhoisSearch
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-WHOIS-GetV2WhoisSearch
       #
       # @param [String] query the value of the field being queried
       # @param [String] field the field to query

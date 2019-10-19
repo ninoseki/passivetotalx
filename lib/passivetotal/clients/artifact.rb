@@ -5,7 +5,8 @@ module PassiveTotal
     class Artifact < Base
       #
       # Create artifacts in bulk.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-PutV2ArtifactBulk
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-PutV2ArtifactBulk
       #
       # @param [Array<Hash>] artifacts a list of dictionaries that match the /v2/artifact interface (has query, type, tags, and project fields per dictionary)
       #
@@ -21,7 +22,8 @@ module PassiveTotal
 
       #
       # Delete artifacts in bulk.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-DeleteV2ArtifactBulk
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-DeleteV2ArtifactBulk
       #
       # @param [Array<String>] artifacts the artifact ids to delete
       #
@@ -37,7 +39,8 @@ module PassiveTotal
 
       #
       # Perform artifact updates in bulk.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-PostV2ArtifactBulk
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-PostV2ArtifactBulk
       #
       # @param [Array<Hash>] artifacts a list of dictionaries which match the fields for the /v2/artifact (artifact, monitor, tags)
       #
@@ -53,7 +56,8 @@ module PassiveTotal
 
       #
       # Create an artifact.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-PutV2Artifact
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-PutV2Artifact
       #
       # @param [String] project the project id the artifact will live on
       # @param [String] query the actual artifact query (passivetotal.org, 8.8.8.8, etc).
@@ -75,7 +79,8 @@ module PassiveTotal
 
       #
       # Delete an artifact with a UUID.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-DeleteV2Artifact
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-DeleteV2Artifact
       #
       # @param [String] artifact the artifact id
       #
@@ -91,7 +96,8 @@ module PassiveTotal
 
       #
       # Read existing artifacts. If no filters are passed, this returns all your personal artifacts created by you or your organization.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-GetV2Artifact
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-GetV2Artifact
       #
       # @param [String] artifact the artifact id
       # @param [String] project filter by project id
@@ -119,7 +125,8 @@ module PassiveTotal
 
       #
       # Update artifact, or toggle monitoring status. If you want to change the query or artifact type, simply delete it and create a new one. Use /v2/artifact/tag to add or delete tags without setting everything at once.
-      # http://api.passivetotal.org/api/docs/#api-Artifact-PostV2Artifact
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Artifact-PostV2Artifact
       #
       # @param [String] artifact the artifact id to update
       # @param [String, nil] monitor whether to monitor the artifact

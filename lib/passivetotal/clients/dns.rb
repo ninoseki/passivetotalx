@@ -5,7 +5,8 @@ module PassiveTotal
     class DNS < Base
       #
       # Retrieves the passive DNS results from active account sources.
-      # http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsPassive
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsPassive
       #
       # @param [String] query the domain or IP being queried
       # @param [String] start the start datetime
@@ -27,7 +28,8 @@ module PassiveTotal
 
       #
       # Retrieves the unique passive DNS results from active account sources.
-      # http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsPassiveUnique
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsPassiveUnique
       #
       # @param [String] query the domain or IP being queried
       #
@@ -43,7 +45,8 @@ module PassiveTotal
 
       #
       # Searches the Passive DNS data for a keyword query.
-      # http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsSearchKeyword
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Passive_DNS-GetV2DnsSearchKeyword
       #
       # @param [String] query query
       #

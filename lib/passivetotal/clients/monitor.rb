@@ -5,7 +5,8 @@ module PassiveTotal
     class Monitor < Base
       #
       # Retrieve all alerts associated with an artifact or project.
-      # http://api.passivetotal.org/api/docs/#api-Monitor-GetV2Monitor
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Monitor-GetV2Monitor
       #
       # @param [String, nil] project the project to filter on
       # @param [String, nil] artifact the artifact to filter on

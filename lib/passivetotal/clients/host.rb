@@ -5,7 +5,8 @@ module PassiveTotal
     class Host < Base
       #
       # Retrieves the host attribute components of a query.
-      # http://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesComponents
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesComponents
       #
       # @param [String] query
       # @param [String, nil] start_at
@@ -25,7 +26,8 @@ module PassiveTotal
 
       #
       # Retrieves the host attribute pairs related to the query.
-      # https://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesComponents
+      #
+      # @see https://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesComponents
       #
       # @param [String] query
       # @param [String] direction
@@ -47,7 +49,8 @@ module PassiveTotal
 
       #
       # Retrieves the host attribute trackers
-      # https://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesTrackers
+      #
+      # @see https://api.passivetotal.org/api/docs/#api-Host_Attributes-GetV2HostAttributesTrackers
       #
       # @param [String] query
       # @param [String, nil] start_at

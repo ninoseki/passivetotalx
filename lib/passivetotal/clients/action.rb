@@ -5,7 +5,8 @@ module PassiveTotal
     class Action < Base
       #
       # Adds tags to a given artifact.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsTags
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsTags
       #
       # @param [String] query artifact for which to add tags
       # @param [Array<String>] tags tags to add to artifact
@@ -23,7 +24,8 @@ module PassiveTotal
 
       #
       # Removes tags from an artifact.
-      # http://api.passivetotal.org/api/docs/#api-Actions-DeleteV2ActionsTags
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-DeleteV2ActionsTags
       #
       # @param [String] query artifact from which to remove tags
       # @param [Array<String>] tags tags to remove from artifact
@@ -41,7 +43,8 @@ module PassiveTotal
 
       #
       # Retrieve classification statuses for given domains.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsBulkClassification
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsBulkClassification
       #
       # @param [Array<String>] query domains for which to retrieve classification statuses
       #
@@ -57,7 +60,8 @@ module PassiveTotal
 
       #
       # Retrieve classification status for a given domain.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsClassification
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsClassification
       #
       # @param [String] query domain for which to retrieve classification status
       #
@@ -73,7 +77,8 @@ module PassiveTotal
 
       #
       # Indicates whether or not a given domain has ever been compromised.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsEverCompromised
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsEverCompromised
       #
       # @param [String] query domain to check for compromised status
       #
@@ -89,7 +94,8 @@ module PassiveTotal
 
       #
       # Indicates whether or not a domain's DNS records are updated via dynamic DNS.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsDynamicDns
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsDynamicDns
       #
       # @param [String] query domain for which to retrieve dynamic DNS status
       #
@@ -105,7 +111,8 @@ module PassiveTotal
 
       #
       # Indicates whether or not a domain is monitored.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsMonitor
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsMonitor
       #
       # @param [String] query domain for which to check for monitoring
       #
@@ -121,7 +128,8 @@ module PassiveTotal
 
       #
       # Indicates whether or not an IP address is a sinkhole.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsSinkhole
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsSinkhole
       #
       # @param [String] query IP address to check for sinkhole status
       #
@@ -137,7 +145,8 @@ module PassiveTotal
 
       #
       # Retrieves tags for a given artifact.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsTags
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsTags
       #
       # @param [String] query artifact for which to retrieve tags
       #
@@ -153,7 +162,8 @@ module PassiveTotal
 
       #
       # Retrieve artifacts for a given tag.
-      # http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsTagsSearch
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-GetV2ActionsTagsSearch
       #
       # @param [String] query tag for which to retrieve artifacts
       #
@@ -169,7 +179,8 @@ module PassiveTotal
 
       #
       # Set classification statuses for given domains.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsBulkClassification
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsBulkClassification
       #
       # @param [Arra<String>] queries domain for which to set classification status
       # @param [String] classification classification status to set for domain
@@ -187,7 +198,8 @@ module PassiveTotal
 
       #
       # Sets the classification status for a given domain.
-      # https://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsClassification
+      #
+      # @see https://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsClassification
       #
       # @param [String] query domain for which to set classification status
       # @param [String] classification classification status to set for domain
@@ -205,7 +217,8 @@ module PassiveTotal
 
       #
       # Sets status for a domain to indicate if it has ever been compromised.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsEverCompromised
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsEverCompromised
       #
       # @param [String] query domain for which to set compromised status
       # @param [Boolean] status if the domain has ever been compromised
@@ -223,7 +236,8 @@ module PassiveTotal
 
       #
       # Sets a domain's status to indicate whether or not its DNS records are updated via dynamic DNS.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsDynamicDns
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsDynamicDns
       #
       # @param [String] query domain for which to set dynamic DNS status
       # @param [Boolean] status if the domain's DNS records are updated via dynamic DNS
@@ -241,7 +255,8 @@ module PassiveTotal
 
       #
       # Sets status for an IP address to indicate whether or not it is a sinkhole.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsSinkhole
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PostV2ActionsSinkhole
       #
       # @param [String] query IP address for which to set sinkhole status
       # @param [Boolean] status if the IP address is a sinkhole
@@ -259,7 +274,8 @@ module PassiveTotal
 
       #
       # Sets the tags for a given artifact.
-      # http://api.passivetotal.org/api/docs/#api-Actions-PutV2ActionsTags
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Actions-PutV2ActionsTags
       #
       # @param [String] query artifact for which to set tags
       # @param [Array<String>] tags tags to set for artifact

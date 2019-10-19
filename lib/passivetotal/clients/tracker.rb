@@ -5,7 +5,8 @@ module PassiveTotal
     class Tracker < Base
       #
       # Retrieves hosts that employ user tracking mechanisms served from another given host.
-      # http://api.passivetotal.org/api/docs/#api-Trackers-GetV2TrackersSearch
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Trackers-GetV2TrackersSearch
       #
       # @param [String] query host from which trackers originate
       # @param [String] type type of trackers to retrieve; a type other than the offically supported ones may be supplied

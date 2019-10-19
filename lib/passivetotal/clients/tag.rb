@@ -5,7 +5,8 @@ module PassiveTotal
     class Tag < Base
       #
       # Retrieve the tags of an artifact or artifacts.
-      # http://api.passivetotal.org/api/docs/#api-Tag_Artifact-GetV2ArtifactTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Tag_Artifact-GetV2ArtifactTag
       #
       # @param [String] artifact the artifact id or ids to list
       #
@@ -21,7 +22,8 @@ module PassiveTotal
 
       #
       # Remove a set of tags from an artifact or artifacts.
-      # http://api.passivetotal.org/api/docs/#api-Tag_Artifact-DeleteV2ArtifactTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Tag_Artifact-DeleteV2ArtifactTag
       #
       # @param [String] artifact the artifact id or ids to update
       # @param [Array<String>] tags the tags or tag to delete (list or str)
@@ -39,7 +41,8 @@ module PassiveTotal
 
       #
       # Set the tags of an artifact or artifacts.
-      # http://api.passivetotal.org/api/docs/#api-Tag_Artifact-PutV2ArtifactTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Tag_Artifact-PutV2ArtifactTag
       #
       # @param [String] artifact the artifact id or ids to update
       # @param [Array<String>] tags the tags or tag to set (list or str)
@@ -57,7 +60,8 @@ module PassiveTotal
 
       #
       # Add tags to an artifact or artifacts.
-      # http://api.passivetotal.org/api/docs/#api-Tag_Artifact-PostV2ArtifactTag
+      #
+      # @see http://api.passivetotal.org/api/docs/#api-Tag_Artifact-PostV2ArtifactTag
       #
       # @param [String] artifact the artifact id or ids to update
       # @param [Array<String>] tags the tags or tag to add (list or str)
